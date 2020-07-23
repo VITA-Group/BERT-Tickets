@@ -2,7 +2,7 @@
 
 Code for this paper [The Lottery Ticket Hypothesis for Pre-trained BERT Networks](). [Preprint]
 
-Our implementation is based on [Huggingface repo](https://github.com/huggingface/transformers). Details are referred to README [here](./transformers-master/REAMDE.md). Pre-trained models/Tickets are coming soon.
+Our implementation is based on [Huggingface repo](https://github.com/huggingface/transformers). Details are referred to README [here](https://github.com/TAMU-VITA/BERT-Tickets/blob/master/transformers-master/README.md). Pre-trained models/Tickets are coming soon.
 
 ### Iterative Magnitude Pruning (IMP)
 
