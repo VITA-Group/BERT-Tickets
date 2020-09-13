@@ -1,8 +1,38 @@
 # The Lottery Ticket Hypothesis for Pre-trained BERT Networks
 
-Code for this paper [The Lottery Ticket Hypothesis for Pre-trained BERT Networks](). [Preprint]
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+Code for this paper [The Lottery Ticket Hypothesis for Pre-trained BERT Networks](https://arxiv.org/abs/2007.12223). [Preprint]
+
+Tianlong Chen, Jonathan Frankle, Shiyu Chang, Sijia Liu, Yang Zhang, Zhangyang Wang, Michael Carbin.
 
 Our implementation is based on [Huggingface repo](https://github.com/huggingface/transformers). Details are referred to README [here](https://github.com/TAMU-VITA/BERT-Tickets/blob/master/transformers-master/README.md). Pre-trained subnetworks are coming soon.
+
+
+
+## Overview
+
+### The Existence of Matching Subnetworks in BERT
+
+![](./figs/Matching NN.png)
+
+### Transfer Learning for BERT Winning Tickets
+
+![](./figs/Transfer NN.png)
+
+
+
+## Method
+
+![](./figs/IMP.png)
+
+
+
+## Reproduce Details
+
+### Prerequisites and Installation
+
+Details are referred to README [here](https://github.com/TAMU-VITA/BERT-Tickets/blob/master/transformers-master/README.md).
 
 ### Iterative Magnitude Pruning (IMP)
 
@@ -256,6 +286,18 @@ python pertub_weight.py
 If you use this code for your research, please cite our paper:
 
 ```
-TBD
+@misc{chen2020lottery,
+    title={The Lottery Ticket Hypothesis for Pre-trained BERT Networks},
+    author={Tianlong Chen and Jonathan Frankle and Shiyu Chang and Sijia Liu and Yang Zhang and Zhangyang Wang and Michael Carbin},
+    year={2020},
+    eprint={2007.12223},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
 ```
 
+
+
+## Acknowlegement
+
+We would like to express our deepest gratitude to the MIT-IBM Watson AI Lab. In particular, we would like to thank John Cohn for his generous help in providing us with the computing resources necessary to conduct this research.
