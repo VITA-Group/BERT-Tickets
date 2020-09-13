@@ -14,11 +14,11 @@ Our implementation is based on [Huggingface repo](https://github.com/huggingface
 
 ### The Existence of Matching Subnetworks in BERT
 
-![](./figs/Matching NN.png)
+![](./figs/MatchingNN.png)
 
 ### Transfer Learning for BERT Winning Tickets
 
-![](./figs/Transfer NN.png)
+![](./figs/TransferNN.png)
 
 
 
